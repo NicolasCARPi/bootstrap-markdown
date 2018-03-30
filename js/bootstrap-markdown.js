@@ -1110,7 +1110,7 @@
           hotkey: 'Ctrl+H',
           icon: {
             glyph: 'glyphicon glyphicon-header',
-            fa: 'fa fa-header',
+            fa: 'fa fa-heading',
             'fa-3': 'icon-font',
             octicons: 'octicon octicon-text-size'
           },
@@ -1191,7 +1191,7 @@
           hotkey: 'Ctrl+G',
           icon: {
             glyph: 'glyphicon glyphicon-picture',
-            fa: 'fa fa-picture-o',
+            fa: 'fa fa-image',
             'fa-3': 'icon-picture',
             octicons: 'octicon octicon-file-media'
           },
