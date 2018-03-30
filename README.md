@@ -1,4 +1,10 @@
-## Bootstrap Markdown
+# Bootstrap Markdown
+
+## Fork purpose
+
+This fork fixes stuff for fontawesome 5.
+
+## Description
 
 Markdown editing meets Bootstrap.
 
