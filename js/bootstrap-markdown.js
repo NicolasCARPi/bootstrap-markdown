@@ -1020,7 +1020,7 @@
     savable: false,
     width: 'inherit',
     height: 'inherit',
-    resize: 'none',
+    resize: true,
     iconlibrary: 'fa',
     language: 'en',
     initialstate: 'editor',
@@ -1037,9 +1037,7 @@
           hotkey: 'Ctrl+B',
           title: 'Bold',
           icon: {
-            fa: 'fa fa-bold',
-            'fa-3': 'icon-bold',
-            octicons: 'octicon octicon-bold'
+            fa: 'fas fa-bold'
           },
           callback: function(e) {
             // Give/remove ** surround the selection
@@ -1072,9 +1070,7 @@
           title: 'Italic',
           hotkey: 'Ctrl+I',
           icon: {
-            fa: 'fa fa-italic',
-            'fa-3': 'icon-italic',
-            octicons: 'octicon octicon-italic'
+            fa: 'fas fa-italic'
           },
           callback: function(e) {
             // Give/remove * surround the selection
@@ -1107,9 +1103,7 @@
           title: 'Heading',
           hotkey: 'Ctrl+H',
           icon: {
-            fa: 'fa fa-heading',
-            'fa-3': 'icon-font',
-            octicons: 'octicon octicon-text-size'
+            fa: 'fas fa-heading'
           },
           callback: function(e) {
             // Append/remove ### surround the selection
@@ -1150,9 +1144,7 @@
           title: 'URL/Link',
           hotkey: 'Ctrl+L',
           icon: {
-            fa: 'fa fa-link',
-            'fa-3': 'icon-link',
-            octicons: 'octicon octicon-link'
+            fa: 'fas fa-link'
           },
           callback: function(e) {
             // Give [] surround the selection and prepend the link
@@ -1186,9 +1178,7 @@
           title: 'Image',
           hotkey: 'Ctrl+G',
           icon: {
-            fa: 'fa fa-image',
-            'fa-3': 'icon-picture',
-            octicons: 'octicon octicon-file-media'
+            fa: 'fas fa-image'
           },
           callback: function(e) {
             // Give ![] surround the selection and prepend the image link
@@ -1228,9 +1218,7 @@
           hotkey: 'Ctrl+U',
           title: 'Unordered List',
           icon: {
-            fa: 'fa fa-list',
-            'fa-3': 'icon-list-ul',
-            octicons: 'octicon octicon-list-unordered'
+            fa: 'fas fa-list'
           },
           callback: function(e) {
             // Prepend/Give - surround the selection
@@ -1278,9 +1266,7 @@
           hotkey: 'Ctrl+O',
           title: 'Ordered List',
           icon: {
-            fa: 'fa fa-list-ol',
-            'fa-3': 'icon-list-ol',
-            octicons: 'octicon octicon-list-ordered'
+            fa: 'fas fa-list-ol'
           },
           callback: function(e) {
 
@@ -1330,9 +1316,7 @@
           hotkey: 'Ctrl+K',
           title: 'Code',
           icon: {
-            fa: 'fa fa-code',
-            'fa-3': 'icon-code',
-            octicons: 'octicon octicon-code'
+            fa: 'fas fa-code'
           },
           callback: function(e) {
             // Give/remove ** surround the selection
@@ -1373,9 +1357,7 @@
           hotkey: 'Ctrl+Q',
           title: 'Quote',
           icon: {
-            fa: 'fa fa-quote-left',
-            'fa-3': 'icon-quote-left',
-            octicons: 'octicon octicon-quote'
+            fa: 'fas fa-quote-left'
           },
           callback: function(e) {
             // Prepend/Give - surround the selection
@@ -1430,9 +1412,7 @@
           btnText: 'Preview',
           btnClass: 'btn btn-primary btn-sm',
           icon: {
-            fa: 'fa fa-search',
-            'fa-3': 'icon-search',
-            octicons: 'octicon octicon-search'
+            fa: 'fas fa-search'
           },
           callback: function(e) {
             // Check the preview mode and toggle based on this flag
@@ -1456,22 +1436,18 @@
     disabledButtons: [], // Default disabled buttons
     footer: '',
     fullscreen: {
-      enable: true,
+      enable: false,
       icons: {
         fullscreenOn: {
           name: "fullscreenOn",
           icon: {
-            fa: 'fa fa-expand',
-            'fa-3': 'icon-resize-full',
-            octicons: 'octicon octicon-link-external'
+            fa: 'fas fa-expand'
           }
         },
         fullscreenOff: {
           name: "fullscreenOff",
           icon: {
-            fa: 'fa fa-compress',
-            'fa-3': 'icon-resize-small',
-            octicons: 'octicon octicon-browser'
+            fa: 'fas fa-compress'
           }
         }
       }
