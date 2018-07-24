@@ -1,10 +1,10 @@
 {
   "name": "bootstrap-markdown-fa5",
   "main": "js/bootstrap-markdown.js",
-  "version": "2.10.0",
+  "version": "2.10.1",
   "description": "A bootstrap plugin for markdown editing",
   "license" : "Apache-2.0",
-  "homepage": "https://github.com/toopay/bootstrap-markdown",
+  "homepage": "https://github.com/NicolasCARPi/bootstrap-markdown",
   "keywords": [
     "twitter",
     "bootstrap",
@@ -12,11 +12,11 @@
     "editor"
   ],
   "maintainers": [{
-    "name": "Taufan Aditya",
-    "web": "https://github.com/toopay"
+    "name": "Nicolas CARPi",
+    "web": "https://github.com/NicolasCARPi"
   }],
   "repository": {
     "type": "git",
-    "url": "https://github.com/toopay/bootstrap-markdown.git"
+    "url": "https://github.com/NicolasCARPi/bootstrap-markdown.git"
   }
 }
